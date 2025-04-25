@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', function()(
-const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
-const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
+document.addEventListener('DOMContentLoaded', function(){
+
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
 botaoDeAcessibilidade.addEventLister('click', function(){
     botaoDeAcessibilidade.ClassList.toggle('rotacao-botao');
@@ -22,3 +23,4 @@ aumentaFonteBotao.addEventListener('click', function(){
     document.body.style.fontSize = '$(tamanhoAtualFonte)ren'
     
 })
+}
